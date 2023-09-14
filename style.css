@@ -1,0 +1,39 @@
+#wrap {
+    /* border: 1px solid red; */
+    text-align: center;
+    /* margin-top: 100px; */
+}
+
+header,
+nav,
+section,
+footer{
+    /* border:1px dashed #aaa; */
+    margin-top: 30px;
+}
+header a{
+    text-decoration: none;
+    color:red;
+}
+nav{
+    background-color:red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* margin-bottom: 50px; */
+}
+nav a{
+    color: #fff;
+    font-weight:bold;
+    text-decoration:none;
+    margin-right:20px;
+    font-size: 20px;
+    border-right:1px solid red;
+    padding-right:20px;
+
+}
+section iframe,
+section img{
+     /* widows: 960px; */
+     width: 960px;
+     height: 600px;
+}
